@@ -27,3 +27,14 @@ ssh -T git@github.com
 Hi PadrinathManivannan! You've successfully authenticated, but GitHub does not provide shell access.
 
 received successful message
+
+and by mistakenly uploaded other two ssh key files
+so planned to move them into .gitignore file by,
+
+echo id_ed25519 >> .gitignore
+echo id_ed25519.pub >> .gitignore
+git add .gitignore
+git commit -m "Add SSH keys to .gitignore to prevent upload"
+git push
+
+successful
