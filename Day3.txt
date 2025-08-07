@@ -1,0 +1,29 @@
+Today I have done config setups and make some updates in GitHub profile.
+Tried generate ssh key settings for login next time without username and password
+ssh-keygen -t ed25519 -C "padrinathmgmail.com"
+
+ssh-keygen = to generate ssh keys
+-t         = type of key
+ed25519    = modern,secure,faster algorithm for ssh keys
+-c         = adds comment to key (usually email)
+
+eval "$(ssh-agent -s)"
+unable to start ssh-agent service, error :1058
+
+when trying this I get permission error, to resolve that 
+win+r 
+type services.msc
+search OpenSSH Authentication Agent
+Right-click on OpenSSH Authentication Agent → Click Properties.
+Set Startup type to Automatic.
+Click Start to run the service immediately.
+Click Apply → OK
+
+generated ssh keys and added into GitHub ssh page
+and tested the connecting by running
+
+ssh -T git@github.com
+
+Hi PadrinathManivannan! You've successfully authenticated, but GitHub does not provide shell access.
+
+received successful message
