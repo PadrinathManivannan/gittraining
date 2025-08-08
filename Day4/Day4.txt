@@ -1,0 +1,30 @@
+today I learnt some VIM editor commands, here I put them
+
+first checking the VIM is installed
+sudo yum install vim -y
+vim Day4.txt
+
+there are 3 modes in VIM editor
+1. Command
+2. Insert
+3. Extended
+
+esc - go back to command mode
+: - extended mode
+:w - save the file
+:q - exit VIM
+:wq - save and exit
+:q! - forcefully exit without changes
+:se num - set numbers
+shift + g - cursor goes to last line
+gg - moves to first line
+yy - copy
+small p - paste
+P - paste above
+yyyy - copies 4 lines
+dddd - delete 4 lines
+u - undo
+x - deletes word letter by letter
+/network - find the word 'network'
+
+have tried this commands successfully ****
