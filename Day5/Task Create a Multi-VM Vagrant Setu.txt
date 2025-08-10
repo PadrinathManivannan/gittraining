@@ -1,0 +1,7 @@
+Task: Create a Multi-VM Vagrant Setup for a Web + DB Stack
+Goal:
+Simulate a small production-like environment with:
+1 Web Server (Nginx + PHP or Node.js)
+1 Database Server (MySQL/PostgreSQL)
+Both connected via a private network.
+Web server reads data from DB
