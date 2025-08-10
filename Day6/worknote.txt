@@ -1,0 +1,23 @@
+Today learnt File types in Linux
+Git branching - created new branch called testbranch
+AWS Ec2 setup
+while setting up I got these error and resolved it successfully
+
+
+The authenticity of host 'ec2-34-229-173-190.compute-1.amazonaws.com (34.229.173.190)' can't be established.
+ED25519 key fingerprint is SHA256:RfyYEYGNZ8iu+U8ZE2iPBzByf6XRLxw/XamGaDiLIFE.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'ec2-34-229-173-190.compute-1.amazonaws.com' (ED25519) to the list of known hosts.
+Bad permissions. Try removing permissions for user: NT AUTHORITY\\Authenticated Users (S-1-5-11) on file D:/Devops/gitlearning/gittraining/Day6/webloginkey.pem.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions for 'webloginkey.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "webloginkey.pem": bad permissions
+ec2-user@ec2-34-229-173-190.compute-1.amazonaws.com: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+resolved this error using https://www.youtube.com/watch?v=OTwEfZP1nb8
