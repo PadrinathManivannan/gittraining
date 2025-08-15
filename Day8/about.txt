@@ -1,0 +1,14 @@
+Daily Learning & Hands-On Journey (AWS + Git + Linux)
+
+As part of my continuous learning, today I explored and practiced:
+
+✅ Setting up an AWS EC2 instance with IAM user access.
+✅ Hosting my own frontend code from GitHub (deployment setup worked successfully, though I faced some code-level errors while hosting).
+✅ Hands-on practice with Git rollback commands to manage version control effectively.
+✅ Practiced Linux redirection commands to better understand input/output and error handling.
+
+Though the hosting didn’t succeed fully due to code issues, the setup part went smoothly. Every step taught me valuable troubleshooting skills, which is equally important in real-world scenarios. 💡
+
+📸 (Attaching reference snaps of today’s work)
+
+I believe sharing consistent practice and learnings is a great way to grow and connect with like-minded professionals.
